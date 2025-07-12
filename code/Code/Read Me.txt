@@ -1,0 +1,28 @@
+README
+This directory contains all files related to my final year project experiments. Below is an explanation of the folder structure and the contents:
+
+📁 Dataset1-3 Folder
+Inside each Dataset folder (Dataset 1-3), there are 9 Jupyter Notebook (.ipynb) files, categorized into two types:
+
+1. Model Training Notebooks
+These notebooks are labeled with the format:
+Model Name (Model Training)
+
+They contain the code used to train the respective models.
+Note:
+The file D1.ML.ipynb includes training code for four traditional machine learning models.
+
+2. Prediction CSV Generation Notebooks
+These notebooks are labeled with the format:
+Model Name (Generate Prediction CSV)
+
+They are used to train and load the trained models and generate prediction results, which are then saved into a .csv file.
+Each resulting CSV file contains:
+
+The input text
+The true label
+The predicted label by the model
+
+📄 CSV Output Files
+There are 3 prediction result CSV files included in the folder. These are the prediction outputs from the following models:Extra Trees Classifier,CNN-BiLSTM,BERT
+
